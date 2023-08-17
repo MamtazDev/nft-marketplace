@@ -4,7 +4,20 @@
 
 @media only screen and (max-width:992px) {}
 
-@media only screen and (max-width:768px) {}
+@media only screen and (max-width:768px) {
+
+    .navbar-nav {
+        gap: 15px;
+    }
+
+    .connectBtn {
+        padding: 10px 30px;
+    }
+
+    .discoverRow{
+        flex-direction: column;
+    }
+}
 
 @media only screen and (max-width:600px) {}
 
