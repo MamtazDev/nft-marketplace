@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;600&display=swap');
+
+:root{
+    --sans : 'Work Sans', sans-serif;
+    --mono :'Space Mono', monospace;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: none;
+}
+
+button {
+    outline: none;
+    border-width: nopne;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+}
+
+.container {
+    max-width: 1250px;
+}
+
+.mb_all {
+    margin-bottom: 70px;
+}
+
+.mb_20 {
+    margin-bottom: 10px;
+}
+
+.mb_30 {
+    margin-bottom: 25px;
+}
+
+.mb_40 {
+    margin-bottom: 35px;
+}
+
+.mb_100 {
+    margin-bottom: 100px;
+}
