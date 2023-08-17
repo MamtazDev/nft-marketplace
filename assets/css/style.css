@@ -242,13 +242,13 @@ h2 {
     overflow: hidden;
 }
 
-.heroBanner img {
+.heroBanner img, .discoverInnerBox img {
     border-radius: 20px 20px 0px 0px;
     transition: 0.3s ease-in-out;
     
 }
 
-.heroBanner img:hover{
+.heroBanner img:hover, .discoverInnerBox img:hover{
     transform: scale(1.02);
     cursor: pointer;
 }
@@ -316,6 +316,10 @@ h2 {
     line-height: 140%;
 }
 
+.discoverNft a:hover{
+    background-color: #A259FF;
+} 
+
 .discoverRow{
     gap: 30px;
 }
@@ -323,6 +327,7 @@ h2 {
 .discoverInnerBox{
     overflow: hidden;
     width: 100%;
+    border-radius: 20px;
 }
 
 /* Index Page End */
