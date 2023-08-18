@@ -179,6 +179,16 @@ h2 {
 
 /* Header End */
 
+/* Footer Start*/
+
+footer{
+    background-color: #3B3B3B;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Footer End*/
+
 
 /* Index Page Start */
 
@@ -242,13 +252,15 @@ h2 {
     overflow: hidden;
 }
 
-.heroBanner img, .discoverInnerBox img {
+.heroBanner img,
+.discoverInnerBox img {
     border-radius: 20px 20px 0px 0px;
     transition: 0.3s ease-in-out;
-    
+
 }
 
-.heroBanner img:hover, .discoverInnerBox img:hover{
+.heroBanner img:hover,
+.discoverInnerBox img:hover {
     transform: scale(1.02);
     cursor: pointer;
 }
@@ -282,7 +294,7 @@ h2 {
     transition: 0.3s ease-in-out;
 }
 
-.boxBottom article a:hover{
+.boxBottom article a:hover {
     color: #dfbff1;
 }
 
@@ -316,18 +328,45 @@ h2 {
     line-height: 140%;
 }
 
-.discoverNft a:hover{
+.discoverNft a:hover {
     background-color: #A259FF;
-} 
+}
 
-.discoverRow{
+.discoverRow {
     gap: 30px;
 }
 
-.discoverInnerBox{
+.discoverInnerBox {
     overflow: hidden;
     width: 100%;
     border-radius: 20px;
+}
+
+.auctionBidInner {
+    padding: 10px 30px 30px 30px;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+    height: 100% !important;
+}
+
+.auctionBidInner span {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--sans);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.auctionBidInner p {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: var(--sans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
 }
 
 /* Index Page End */
