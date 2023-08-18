@@ -170,7 +170,8 @@ h2 {
 
 .nav-link:focus,
 .nav-link:hover {
-    color: #A259FF;
+    /* color: #A259FF; */
+    color: #dfbff1;
 }
 
 .navbar-toggler {
@@ -181,10 +182,60 @@ h2 {
 
 /* Footer Start*/
 
-footer{
+footer {
     background-color: #3B3B3B;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.footerInner{
+    gap: 80px;
+}
+
+.footerInner p {
+    color: #CCC;
+    font-family: var(--sans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footerMenu span {
+    color: #FFF;
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.footerMenu a {
+    color: #CCC;
+    font-family: var(--sans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 18px;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+
+.footerMenu a:hover{
+    color: #dfbff1;
+}
+
+.socialLink{
+  
+    overflow: hidden;
+}
+
+.socialLink img{
+    transition: 0.3s ease-in-out;
+}
+
+.socialLink img:hover{
+    transform: scale(1.2);
 }
 
 /* Footer End*/
@@ -202,13 +253,14 @@ footer{
     margin-bottom: 45px;
 }
 
-.hero p {
+.bannerSub {
     color: var(--white, #FFF);
     font-family: var(--sans);
     font-size: 22px;
     font-weight: 400;
     line-height: 160%;
     text-transform: capitalize;
+    margin-bottom: 25px;
 }
 
 .hero a {
