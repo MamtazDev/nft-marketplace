@@ -304,6 +304,12 @@ footer {
     overflow: hidden;
 }
 
+.discoverInnerBox {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 20px;
+}
+
 .heroBanner img,
 .discoverInnerBox img {
     border-radius: 20px 20px 0px 0px;
@@ -388,11 +394,6 @@ footer {
     gap: 30px;
 }
 
-.discoverInnerBox {
-    overflow: hidden;
-    width: 100%;
-    border-radius: 20px;
-}
 
 .auctionBidInner {
     padding: 10px 30px 30px 30px;
