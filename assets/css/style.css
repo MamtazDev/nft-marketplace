@@ -478,7 +478,7 @@ footer {
     text-transform: capitalize;
 }
 
-.createDes p{
+.createDes p {
     color: var(--white, #FFF);
     font-family: var(--sans);
     font-size: 16px;
@@ -552,6 +552,21 @@ footer {
 /* Auction Details End */
 
 /* Live Auction Start */
+.liveAuction h3 {
+    color: var(--white, #FFF);
+    font-family: var(--sans);
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
 
+.liveAuction p {
+    color: var(--white, #FFF);
+    font-family: var(--sans);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+}
 
 /* Live Auction End */

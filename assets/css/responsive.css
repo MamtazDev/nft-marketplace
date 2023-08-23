@@ -87,6 +87,10 @@
         padding: 20px;
     }
 
+    .liveAuction h3 {
+        font-size: 38px;
+    }
+
 }
 
     @media only screen and (max-width:768px) {}
@@ -112,6 +116,14 @@
 
         .auctionBidInner span, .auctionBidInner p {
             text-align: start;
+        }
+
+        .liveAuction h3 {
+            font-size: 28px;
+        }
+
+        .liveAuction p {
+            font-size: 16px;
         }
     }
 
