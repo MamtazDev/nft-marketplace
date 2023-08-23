@@ -267,7 +267,7 @@ footer {
     margin-bottom: 25px;
 }
 
-.hero a {
+.bannerFollow a {
     padding: 19px 50px;
     border-radius: 20px;
     background: var(--call-to-action, #A259FF);
@@ -280,11 +280,11 @@ footer {
     transition: 0.3s ease-in-out;
 }
 
-.hero a:hover {
+.bannerFollow a:hover {
     opacity: .9;
 }
 
-.hero article p {
+.bannerFollow article p {
     color: var(--white, #FFF);
     font-family: var(--mono);
     font-size: 28px;
@@ -293,7 +293,7 @@ footer {
     text-transform: capitalize;
 }
 
-.hero article span {
+.bannerFollow article span {
     color: var(--white, #FFF);
     font-family: var(--sans);
     font-size: 23px;
@@ -378,7 +378,7 @@ footer {
 }
 
 
-.discoverNft a {
+.seeAll {
     padding: 15px 50px;
     border-radius: 20px;
     border: 2px solid var(--call-to-action, #A259FF);
@@ -390,7 +390,7 @@ footer {
     line-height: 140%;
 }
 
-.discoverNft a:hover {
+.seeAll:hover {
     background-color: #A259FF;
 }
 

@@ -51,11 +51,11 @@
         margin-bottom: 15px;
     }
 
-    .hero article p {
+    .bannerFollow article p {
         font-size: 22px;
     }
 
-    .hero article span {
+    .bannerFollow article span {
         font-size: 16px;
     }
 
@@ -68,7 +68,29 @@
 
     @media only screen and (max-width:768px) {}
 
-    @media only screen and (max-width:600px) {}
+    @media only screen and (max-width:600px) {
+        .mt_80{
+            margin-top: 38px;
+        } 
+
+        .bannerSub {
+            margin-bottom: 35px;
+        }
+
+        .auctionBidInner{
+            padding: 20px;
+            gap: 15px;
+        }
+
+        .auctionBidInner img{
+            width: 100px;
+
+        }
+
+        .auctionBidInner span, .auctionBidInner p {
+            text-align: start;
+        }
+    }
 
     @media only screen and (max-width:425px) {}
 
