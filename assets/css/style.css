@@ -573,5 +573,71 @@ footer {
 
 /* Profile Page Start */
 
+.profileImg img {
+    margin-top: -60px;
+    border-radius: 20px;
+}
+
+.proHeader h2 {
+    color: var(--white, #FFF);
+    font-family: var(--sans);
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.proHeader p {
+    color: var(--white, #FFF);
+    font-family: var(--mono);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.proHeader span {
+    color: var(--white, #FFF);
+    font-family: var(--sans);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.profileOutter {
+    color: #3B3B3B;
+}
+
+.created{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--caption-label-text, #858584);
+}
+
+.created p {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: var(--sans);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.created span {
+    color: #FFF;
+    font-family: var(--mono);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #858584;
+}
+
+.personalBid{
+    background: var(--background-secondary, #3B3B3B);
+}
 
 /* Profile Page End */

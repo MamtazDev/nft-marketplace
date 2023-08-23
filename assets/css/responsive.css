@@ -8,7 +8,7 @@
         margin-bottom: 110px;
     }
 
-    .foomt_80{
+    .foomt_80 {
         margin-top: 40px;
     }
 
@@ -30,9 +30,10 @@
         font-size: 12px;
     }
 
-    .container{
+    .container {
         max-width: 690px;
     }
+
     .navbar-nav {
         gap: 15px;
     }
@@ -59,16 +60,18 @@
         font-size: 16px;
     }
 
-    .footerInner{
+    .footerInner {
         flex-direction: column;
         gap: 25px;
-    } 
+    }
 
     .auctionDetail h3 {
         font-size: 38px;
     }
 
-    .auctionDetail span, .createdBy span, .orbitTxt {
+    .auctionDetail span,
+    .createdBy span,
+    .orbitTxt {
         font-size: 16px;
     }
 
@@ -76,14 +79,15 @@
         font-size: 30px;
     }
 
-    .orbitTxt{
+    .orbitTxt {
         font-weight: 400px;
     }
 
     .bidInput input {
         max-width: 100px;
     }
-    .placeBid{
+
+    .placeBid {
         padding: 20px;
     }
 
@@ -91,41 +95,73 @@
         font-size: 38px;
     }
 
-}
-
-    @media only screen and (max-width:768px) {}
-
-    @media only screen and (max-width:600px) {
-        .mt_80{
-            margin-top: 38px;
-        } 
-
-        .bannerSub {
-            margin-bottom: 35px;
-        }
-
-        .auctionBidInner{
-            padding: 20px;
-            gap: 15px;
-        }
-
-        .auctionBidInner img{
-            width: 100px;
-        }
-
-        .auctionBidInner span, .auctionBidInner p {
-            text-align: start;
-        }
-
-        .liveAuction h3 {
-            font-size: 28px;
-        }
-
-        .liveAuction p {
-            font-size: 16px;
-        }
+    .proHeader h2 {
+        font-size: 38px;
     }
 
-    @media only screen and (max-width:425px) {}
+    .proHeader p,
+    .proHeader span {
+        font-size: 22px;
+    }
 
-    @media only screen and (max-width:320px) {}
+    .created p{
+        font-size: 16px;
+    }
+
+    .created span{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:600px) {
+    .mt_80 {
+        margin-top: 38px;
+    }
+
+    .bannerSub {
+        margin-bottom: 35px;
+    }
+
+    .auctionBidInner {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .auctionBidInner img {
+        width: 100px;
+    }
+
+    .auctionBidInner span,
+    .auctionBidInner p {
+        text-align: start;
+    }
+
+    .liveAuction h3 {
+        font-size: 28px;
+    }
+
+    .liveAuction p {
+        font-size: 16px;
+    }
+
+
+    .proHeader h2 {
+        font-size: 28px;
+    }
+
+   
+    .proHeader span {
+        font-size: 16px;
+    }
+
+    .profileImg {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:425px) {}
+
+@media only screen and (max-width:320px) {}
