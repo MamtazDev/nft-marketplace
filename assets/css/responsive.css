@@ -76,6 +76,10 @@
         font-size: 30px;
     }
 
+    .orbitTxt{
+        font-weight: 400px;
+    }
+
     .bidInput input {
         max-width: 100px;
     }
