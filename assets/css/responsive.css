@@ -91,7 +91,7 @@
         padding: 20px;
     }
 
-    .liveAuction h3 {
+    .liveAuction h3, .createAuction h3 {
         font-size: 38px;
     }
 
@@ -139,7 +139,7 @@
         text-align: start;
     }
 
-    .liveAuction h3 {
+    .liveAuction h3, .createAuction h3 {
         font-size: 28px;
     }
 
