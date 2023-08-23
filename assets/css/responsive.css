@@ -4,6 +4,32 @@
 
 @media only screen and (max-width:991px) {
 
+    .m_all {
+        margin-bottom: 110px;
+    }
+
+    .foomt_80{
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 140%;
+    }
+
+    .subHeader {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .auctionBidInner span {
+        font-size: 16px;
+    }
+
+    .auctionBidInner p {
+        font-size: 12px;
+    }
+
     .container{
         max-width: 690px;
     }
@@ -14,10 +40,6 @@
     .connectBtn {
         padding: 10px 30px;
     }
-
-    /* .discoverRow {
-        flex-direction: column;
-    } */
 
     .hero h1 {
         font-size: 38px;
@@ -36,6 +58,11 @@
     .hero article span {
         font-size: 16px;
     }
+
+    .footerInner{
+        flex-direction: column;
+        gap: 25px;
+    } 
 
 }
 
