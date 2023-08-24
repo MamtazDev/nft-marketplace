@@ -198,7 +198,18 @@ footer {
 
 .footerInner {
     gap: 80px;
+    border-bottom: 1px solid #747474;
+    padding-bottom: 30px;
 }
+
+.footerOuter p {
+    color: #CCC;
+    font-family: var(--sans);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110%;
+}
+
 
 .footerInner p {
     color: #CCC;
@@ -245,6 +256,12 @@ footer {
 .socialLink img:hover {
     transform: scale(1.2);
 }
+
+.footerOuter {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 
 /* Footer End*/
 
@@ -609,7 +626,7 @@ footer {
     color: #3B3B3B;
 }
 
-.created{
+.created {
     padding-top: 12px;
     padding-bottom: 12px;
     border-bottom: 2px solid var(--caption-label-text, #858584);
@@ -636,7 +653,7 @@ footer {
     background: #858584;
 }
 
-.personalBid{
+.personalBid {
     background: var(--background-secondary, #3B3B3B);
 }
 
